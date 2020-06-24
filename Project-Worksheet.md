@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+Github Repo: https://github.com/hannahbannan/SEIR-526-Mars-Project
 - [add your deployment link]()
 
 ## Project Description
@@ -11,12 +11,21 @@ Use this section to describe your final project and perhaps any links to relevan
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+NASA’s InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, an area near Mars’ equator. This API provides the weather measurements from the last 7 sols (or days, for us Earthlings). It includes data for temperature, windspeed, and pressure.
+
+API URL: https://api.nasa.gov/insight_weather/?api_key=NVPo1OZ86ApquiqVgY9DX61fYLbMSAO1vfNbNDwP&feedtype=json&ver=1.0
 
 
-```
-{data: {} }
-```
+Here is a snippet of the API - atmospheric temperature (AT) on Sol 554. Shows average temp, count of measurements taken that sol, minimum, and maximum temp.
+
+"554": {
+	"AT": {
+		"av": -56.99,
+		"ct": 180572,
+		"mn": -92.401,
+		"mx": -3.97
+	},
+}
 
 
 ## Wireframes
