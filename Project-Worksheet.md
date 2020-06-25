@@ -7,7 +7,11 @@ Github Repo: https://github.com/hannahbannan/SEIR-526-Mars-Project
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+In this project I will create an app that displays the weather report on Mars. I want to make this look like your normal weather app, but that of another planet! I want this app to be both fun to look at and educational, so I will incorporate information on Mars' weather and seasons as well.
+
+NASA uses their API to create a one-page weather report: https://mars.nasa.gov/insight/weather/
+I will be creating a similar but expanded application around this report.
+
 
 ## API
 
