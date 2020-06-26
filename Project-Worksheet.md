@@ -71,7 +71,7 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Styling in SCSS or CSS | M | 3 |  |  |
 | Source images | M | 2 |  |  |
 | Hamburger icon on mobile | L | 2 |  |  |
-| Total |  | 32hrs |  |  |
+| Total |  | 32hrs | 5hrs |  |
 
 
 ## Post-MVP
@@ -82,7 +82,7 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Compare first and second API data | L | 2 |  |  |
 | Learn D3/make data graphic | L | 4 |  |  |
 | Mars image carousel on about page | L | 3 |  |  |
-| Total |  | 12hrs|  |  |
+| Total |  | 14hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
