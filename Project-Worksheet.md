@@ -55,17 +55,34 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 ## MVP
 | Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 1| 2 | 3 |
+| Create wireframes | H | 1 |  |  |
+| Create component architecture | H | 1 |  |  |
+| Read API documentation | H | 1 |  |  |
+| Build out basic page structure | H | 2 |  |  |
+| Build nav section | H | 1 |  |  |
+| Implement React Router | H | 2 |  |  |
+| Build weather details component by pulling API data | H | 3 |  |  |
+| Change weather details component data on different pages | H | 3 |  |  |
+| About page research & writing copy | M | 2 |  |  |
+| Seasons page research & writing copy | M | 2 |  |  |
+| Seasons page API pull and conditional rendering | M | 2 |  |  |
+| Responsive design | H | 3 |  |  |
+| Styling in SCSS or CSS | M | 3 |  |  |
+| Sources images | M | 2 |  |  |
+| Hamburger icon on mobile | L | 2 |  |  |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 6hrs|  |  |
 
 
 ## Post-MVP
 | Component | Priority | Estimated Time (Hours) | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Fetch data from second API | L | 2 |  |  |
+| Form for zipcode input | L | 3 |  |  |
+| Compare first and second API data | L | 4 |  |  |
+| Mars image carousel on about page | L | 3 |  |  |
+
+| Total | H | 12hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
