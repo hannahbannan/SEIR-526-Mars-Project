@@ -80,7 +80,6 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Form for zipcode input | L | 3 |  |  |
 | Compare first and second API data | L | 4 |  |  |
 | Mars image carousel on about page | L | 3 |  |  |
-
 | Total |  | 12hrs|  |  |
 
 ## Additional Libraries
