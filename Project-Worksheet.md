@@ -67,10 +67,11 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Seasons page research & writing copy | M | 2 |  |  |
 | Seasons page API pull and conditional rendering | M | 2 |  |  |
 | Responsive design | H | 3 |  |  |
+| useContext for API data | M | 2 |  |  |
 | Styling in SCSS or CSS | M | 3 |  |  |
 | Sources images | M | 2 |  |  |
 | Hamburger icon on mobile | L | 2 |  |  |
-| Total |  | 30hrs |  |  |
+| Total |  | 32hrs |  |  |
 
 
 ## Post-MVP
