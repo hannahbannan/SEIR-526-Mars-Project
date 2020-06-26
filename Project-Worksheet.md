@@ -7,14 +7,17 @@ Github Repo: https://github.com/hannahbannan/SEIR-526-Mars-Project
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+In this project I will create an app that displays the weather report on Mars. I want to make this look like your normal weather app, but that of another planet! I want this app to be both fun to look at and educational, so I will incorporate information on Mars' weather and seasons as well.
+
+NASA uses their API to create a one-page weather report: https://mars.nasa.gov/insight/weather/
+I will be creating a similar but expanded application around this report.
+
 
 ## API
 
 NASA’s InSight Mars lander takes continuous weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, an area near Mars’ equator. This API provides the weather measurements from the last 7 sols (or days, for us Earthlings). It includes data for temperature, windspeed, and pressure.
 
 API URL: https://api.nasa.gov/insight_weather/?api_key=NVPo1OZ86ApquiqVgY9DX61fYLbMSAO1vfNbNDwP&feedtype=json&ver=1.0
-
 
 Here is a snippet of the API - atmospheric temperature (AT) on Sol 554. Shows average temp, count of measurements taken that sol, minimum, and maximum temp.
 
@@ -30,44 +33,56 @@ Here is a snippet of the API - atmospheric temperature (AT) on Sol 554. Shows av
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
+Check out my Sketch files in this repo if you are able to open. Otherwise, screenshots of my wireframe and React architecture can be found below.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+Wireframes: https://cloudinary.com/console/c-5cd56b7c6bedd7284e59603c7be5e5/media_library/folders/2ef6dd14ed55eb15388adb2c7a4726a2
 
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
-
-#### PostMVP EXAMPLE
-
-- Add localStorage or firebase for storage
-
-## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
-| Component | Description | 
-| --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v1593123215/Mars%20Project/Screen_Shot_2020-06-25_at_3.13.30_PM_mawnzx.png
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+#### MVP 
+- Fetch data from NASA API
+- Render a daily weather page, 7-day report, and seasons page using the data from the API
+- Write an "About" page explaining the weather information
+
+#### PostMVP 
+
+- Fetch data from a second weather API to compare your local weather to the Mars weather. Example: "It is 88 degrees colder in Mars today than it is in Los Angeles."
+
+### Time Frames
+
+## MVP
+| Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Create wireframes | H | 1 | 1 | 1 |
+| Create component architecture | H | 1 | 1 | 1 |
+| Read API documentation | H | 1 |  |  |
+| Build out basic page structure | H | 2 | 1 | 1 |
+| Build nav section | H | 1 | 1 | 1 |
+| Implement React Router | H | 2 | 1 | 1 |
+| Build weather details component by pulling API data | H | 3 |  |  |
+| Change weather details component data on different pages | H | 3 |  |  |
+| About page research & writing copy | M | 2 |  |  |
+| Seasons page research & writing copy | M | 2 |  |  |
+| Seasons page API pull and conditional rendering | M | 2 |  |  |
+| Responsive design | H | 3 |  |  |
+| useContext for API data | M | 2 |  |  |
+| Styling in SCSS or CSS | M | 3 |  |  |
+| Source images | M | 2 |  |  |
+| Hamburger icon on mobile | L | 2 |  |  |
+| Total |  | 32hrs | 5hrs |  |
+
+
+## Post-MVP
+| Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Fetch data from second API | L | 2 |  |  |
+| Form for zipcode input | L | 3 |  |  |
+| Compare first and second API data | L | 2 |  |  |
+| Learn D3/make data graphic | L | 5 |  |  |
+| Mars image carousel on about page | L | 3 |  |  |
+| Total |  | 15hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
