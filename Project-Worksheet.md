@@ -55,12 +55,12 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 ## MVP
 | Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create wireframes | H | 1 |  |  |
-| Create component architecture | H | 1 |  |  |
+| Create wireframes | H | 1 | 1 | 1 |
+| Create component architecture | H | 1 | 1 | 1 |
 | Read API documentation | H | 1 |  |  |
-| Build out basic page structure | H | 2 |  |  |
-| Build nav section | H | 1 |  |  |
-| Implement React Router | H | 2 |  |  |
+| Build out basic page structure | H | 2 | 1 | 1 |
+| Build nav section | H | 1 | 1 | 1 |
+| Implement React Router | H | 2 | 1 | 1 |
 | Build weather details component by pulling API data | H | 3 |  |  |
 | Change weather details component data on different pages | H | 3 |  |  |
 | About page research & writing copy | M | 2 |  |  |
@@ -69,17 +69,18 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Responsive design | H | 3 |  |  |
 | useContext for API data | M | 2 |  |  |
 | Styling in SCSS or CSS | M | 3 |  |  |
-| Sources images | M | 2 |  |  |
+| Source images | M | 2 |  |  |
 | Hamburger icon on mobile | L | 2 |  |  |
 | Total |  | 32hrs |  |  |
 
 
 ## Post-MVP
-| Component | Priority | Estimated Time (Hours) | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Fetch data from second API | L | 2 |  |  |
 | Form for zipcode input | L | 3 |  |  |
-| Compare first and second API data | L | 4 |  |  |
+| Compare first and second API data | L | 2 |  |  |
+| Learn D3/make data graphic | L | 4 |  |  |
 | Mars image carousel on about page | L | 3 |  |  |
 | Total |  | 12hrs|  |  |
 
