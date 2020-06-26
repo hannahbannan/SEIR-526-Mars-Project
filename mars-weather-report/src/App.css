@@ -1,0 +1,36 @@
+.App {
+  padding: 20px;
+  /* background-color: #451804; */
+  background-image: url('https://res.cloudinary.com/hannahbannan/image/upload/v1593207017/Mars%20Project/193855_planet-mars-wallpaper_qhuqhi.jpg');
+  /* background-size:cover; */
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+header {
+  position: left;
+  text-align: left;
+  position: fixed;
+  padding-left: 20px;
+  top: 0;
+  left: 0;
+  z-index: 1000000;
+}
+
+nav {
+  text-decoration: none;
+
+}
+
+a {
+  color: white;
+}
+
+main {
+  position: center;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  /* background-color: rgba(0,0,0,0.2) */
+}
