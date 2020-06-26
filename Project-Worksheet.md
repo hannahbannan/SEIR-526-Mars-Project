@@ -52,7 +52,16 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 
 ### Time Frames
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+## MVP
+| Component | Priority | Estimated Time (Hours) | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 1| 2 | 3 |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
+
+
+## Post-MVP
+| Component | Priority | Estimated Time (Hours) | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
