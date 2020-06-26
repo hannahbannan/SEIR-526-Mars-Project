@@ -80,9 +80,9 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Fetch data from second API | L | 2 |  |  |
 | Form for zipcode input | L | 3 |  |  |
 | Compare first and second API data | L | 2 |  |  |
-| Learn D3/make data graphic | L | 4 |  |  |
+| Learn D3/make data graphic | L | 5 |  |  |
 | Mars image carousel on about page | L | 3 |  |  |
-| Total |  | 14hrs|  |  |
+| Total |  | 15hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
