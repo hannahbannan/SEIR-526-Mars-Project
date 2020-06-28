@@ -52,6 +52,9 @@ function App() {
         <Route exact path="/about" component={AboutPage}/>
         <Redirect to="/report" />
         </main>
+        <footer>
+          <p>Mars Weather Report created by Hannah Bannan</p>
+        </footer>
     </div>
   );
 }

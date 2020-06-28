@@ -1,9 +1,15 @@
+#root {
+  background-color: black;
+}
+
 .App {
   padding: 20px;
   /* background-color: #451804; */
   background-image: url('https://res.cloudinary.com/hannahbannan/image/upload/v1593207017/Mars%20Project/193855_planet-mars-wallpaper_qhuqhi.jpg');
   /* background-size:cover; */
   background-position: center;
+  background-size: cover;
+  background-color: black;
   height: 100vh;
   color: white;
 }
@@ -32,5 +38,27 @@ main {
   text-align: center;
   padding-top: 200px;
   color: white;
-  /* background-color: rgba(0,0,0,0.2) */
+  background-color: rgba(0,0,0,0.2)
+}
+
+.About {
+  padding: 0px 20px 20px 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 20px;
+  background-color: darkred;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 12px;
 }

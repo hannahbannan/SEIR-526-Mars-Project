@@ -3,8 +3,10 @@ import { DataContext } from "../../App"
 
 const SeasonsPage = ({ weatherData }) => {
     const weatherDisplay = useContext(DataContext);
-    if (weatherDisplay['555']) {
-        let seasonName = weatherDisplay['555'].Season.toUpperCase();
+    // console.log(weatherDisplay)
+    if (weatherDisplay) {
+        let currentDay = weatherDisplay.sol_keys[6];
+        let seasonName = weatherDisplay[currentDay].Season.toUpperCase();
     return (
     <div className="season">
         <h1>{seasonName}</h1>
