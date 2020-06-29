@@ -24,7 +24,7 @@ function App() {
     makeApiCall();
   }, []);
 
-  // console.log(weatherData)
+  console.log(weatherData)
     
   const handleClick = () => {
     isOpen(!open);

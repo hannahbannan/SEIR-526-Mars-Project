@@ -3,7 +3,7 @@ import "./WeatherDetails.css"
 
 
 const WeatherDetails = ({day, index}) => {
-    // console.log(day)
+    console.log(day)
 
     let myDate = new Date(day.First_UTC);
     myDate = myDate.toString();
@@ -29,8 +29,10 @@ const WeatherDetails = ({day, index}) => {
             <h2>{shortTemp} °C</h2>
             <h4>High: {shortHigh} °C</h4>
             <h4>Low: {shortLow} °C</h4>
-            {/* <p>Wind Speed: {day.HWS.av} m/s</p>} */}
-            {/* <p>Atmospheric Pressure: {day.PRE.av} Pa</p> */}
+            { index===0 ?
+            <>
+            <p>Wind Speed: {day.HWS.av} m/s</p>
+            <p>Atmospheric Pressure: {day.PRE.av} Pa</p></> : null}
         </div>
     )
 }
