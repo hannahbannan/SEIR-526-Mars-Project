@@ -61,15 +61,15 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Build out basic page structure | H | 2 | 1 | 1 |
 | Build nav section | H | 1 | 1 | 1 |
 | Implement React Router | H | 2 | 1 | 1 |
-| Build weather details component by pulling API data | H | 3 | 2 |  |
-| About page research & writing copy | M | 2 |  |  |
-| Seasons page research & writing copy | M | 2 |  |  |
+| Build weather details component by pulling API data | H | 3 | 2 | 2 |
+| About page research & writing copy | M | 2 | 1 |  |
+| Seasons page research & writing copy | M | 2 | 1 |  |
 | Seasons page API pull and conditional rendering | M | 2 | 3 | 3 |
-| Responsive design | H | 3 |  |  |
+| Responsive design | H | 3 | 3 |  |
 | useContext for API data | M | 2 | 2 | 2 |
-| Styling in CSS | M | 3 | 1 |  |
+| Styling in CSS | M | 3 | 2 |  |
 | Source images | M | 2 | 1 |  |
-| Hamburger icon on mobile | L | 2 |  |  |
+| Hamburger icon on mobile | L | 2 | 2 |  |
 | Total |  | 32hrs | 15hrs |  |
 
 
