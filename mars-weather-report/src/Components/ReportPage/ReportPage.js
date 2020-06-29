@@ -2,21 +2,27 @@ import React, { useContext } from "react";
 import WeatherDetails from "../WeatherDetails/WeatherDetails"
 import { DataContext } from "../../App"
 
-const ReportPage = ({ weatherData }) => {
+const ReportPage = () => {
  const weatherDisplay = useContext(DataContext);
 
- console.log(weatherDisplay);
-
-//     const display = Object.keys(weatherDisplay).map((day, i) => {
-//       return <WeatherDetails day={day} />
-//   })
-    return (
-    <div>  
-        <h1>Today's weather here:</h1>
-        {/* {display} */}
-        <h1>7 day report here:</h1>
-    </div>  
-    )
+    if (!weatherDisplay) {
+        return <h2>Loading...</h2>
+    } else {
+        // console.log(weatherDisplay)
+        const display = Object.values(weatherDisplay).splice(0,7).reverse();
+        // console.log(display)
+        
+     
+        return (
+            <div className="report-page">  
+                <div className="weather-container">
+                    {display.map((day, index) => (
+                        <WeatherDetails day={day} key={index} index={index} />
+                ))}
+             
+                </div>
+            </div>  
+    )}
    
 }
 

@@ -4,6 +4,7 @@ import { Route, Redirect, Link } from "react-router-dom";
 import ReportPage from "./Components/ReportPage/ReportPage"
 import SeasonsPage from "./Components/SeasonsPage/SeasonsPage";
 import AboutPage from "./Components/AboutPage/AboutPage";
+import Nav from "./Components/Nav/Nav"
 
 export const DataContext = createContext();
 console.log('DataContext up and running');
@@ -11,6 +12,7 @@ console.log('DataContext up and running');
 function App() {
 
   const [weatherData, setWeatherData] = useState(null);
+  const [open, isOpen] = useState(false);
 
   useEffect(() => {
     const nasaUrl ='https://api.nasa.gov/insight_weather/?api_key=NVPo1OZ86ApquiqVgY9DX61fYLbMSAO1vfNbNDwP&feedtype=json&ver=1.0';
@@ -22,23 +24,22 @@ function App() {
     makeApiCall();
   }, []);
 
-  console.log(weatherData)
+  // console.log(weatherData)
+    
+  const handleClick = () => {
+    isOpen(!open);
+    console.log(open)
+  }
+
+  
 
   return (
     <div className="App">
       <header>
+      <Link to='/report'>
         <h2>MARS WEATHER REPORT</h2>
-        <nav>
-          <Link to='/report'>
-            <h3>Weather Report</h3>
-          </Link>
-          <Link to='/season'>
-            <h3>Mars Seasons</h3>
-          </Link>
-          <Link to='/about'>
-            <h3>About</h3>
-          </Link>
-        </nav>
+      </Link>
+        <Nav handleClick={handleClick} isOpen={isOpen}/>
       </header>
       <main>
           <DataContext.Provider value={weatherData}>
