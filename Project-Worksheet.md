@@ -70,7 +70,7 @@ React Architecture: https://res.cloudinary.com/hannahbannan/image/upload/v159312
 | Styling in CSS | M | 3 | 2 |  |
 | Source images | M | 2 | 1 |  |
 | Hamburger icon on mobile | L | 2 | 2 |  |
-| Total |  | 32hrs | 15hrs |  |
+| Total |  | 32hrs | 23hrs |  |
 
 
 ## Post-MVP
